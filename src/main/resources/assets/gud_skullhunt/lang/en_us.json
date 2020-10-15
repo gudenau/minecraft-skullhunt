@@ -1,0 +1,9 @@
+{
+  "block.gud_skullhunt.skull": "Skull Hunt Skull",
+
+  "tooltip.gud_skullhunt.type.skeleton": "Skeleton",
+  "tooltip.gud_skullhunt.type.wither_skeleton": "Wither Skeleton",
+  "tooltip.gud_skullhunt.type.zombie": "Zombie",
+  "tooltip.gud_skullhunt.type.creeper": "Creeper",
+  "tooltip.gud_skullhunt.type.dragon": "Dragon"
+}

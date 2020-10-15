@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "gud_skullhunt",
+  "version": "${version}",
+
+  "name": "Skull Hunt",
+  "description": "A spooky scavenger hunt.",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "",
+  "icon": "assets/gud_skullhunt/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gudenau.minecraft.skullhunt.SkullHunt"
+    ],
+    "client": [
+      "net.gudenau.minecraft.skullhunt.SkullHuntClient"
+    ],
+    "cardinal-components-entity": [
+      "net.gudenau.minecraft.skullhunt.SkullHuntCCA"
+    ],
+    "cardinal-components-chunk": [
+      "net.gudenau.minecraft.skullhunt.SkullHuntCCA"
+    ]
+  },
+  "mixins": [
+    "gud_skullhunt.mixins.json"
+  ],
+  "custom": {
+    "cardinal-components": [
+      "gud_skullhunt:tracker",
+      "gud_skullhunt:player_tracker"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "cardinal-components-base": "*",
+    "cardinal-components-entity": "*",
+    "cardinal-components-chunk": "*"
+  },
+  "suggests": {}
+}
